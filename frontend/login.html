@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 100px;
+            border-radius: 80px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+        }
+        .login-container h2 {
+            margin: 50px;
+        }
+        .login-container .form-control {
+            padding: 25px;
+        }
+        .login-container .btn {
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+        .login-container .btn:hover {
+            background-color: #333;
+        }
+       
+        .login-container a {
+            color: black;
+        }
+        .illustration {
+width: 500px;    
+ }
+       
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="text-center mb-4">
+            <img src="./assets/logo.png" alt="Logo">
+            <h2>Log in</h2>
+        </div>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="User Name">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="keepLoggedIn">
+                <label class="form-check-label" for="keepLoggedIn">Keep me logged in</label>
+            </div>
+            <div class="form-group text-right">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn btn-block">Log in</button>
+            <div class="text-center mt-3">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+            <div class="text-center mt-4">
+                <p><a href="#">Terms of use</a> | <a href="#">Privacy policy</a></p>
+            </div>
+        </form>
+    </div>
+    <img src="./assets/old-person-active-with-dumbells 1.png" alt="Illustration" class="illustration">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
